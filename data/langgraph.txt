@@ -1,0 +1,17 @@
+LangGraph is a framework for building stateful,
+multi-step applications using graphs.
+
+A graph contains nodes, edges, and shared state.
+Nodes perform work, while edges define execution flow.
+
+Conditional edges route execution based on the current state.
+Reducers determine how updates are combined with existing state.
+
+Checkpointing stores graph execution state and enables
+conversation continuation and recovery.
+
+Human-in-the-loop workflows can pause execution and wait
+for a human decision before continuing.
+
+Retrieval-Augmented Generation (RAG) retrieves relevant
+document chunks and passes them to a language model as context.

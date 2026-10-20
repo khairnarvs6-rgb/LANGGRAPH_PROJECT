@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+tests/.env
+tests/.env.*
+.venv/
+**/__pycache__/
+.pytest_cache/
+chroma_db/
+*.py[cod]
+data/*.pdf
